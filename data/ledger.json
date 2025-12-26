@@ -1,0 +1,23 @@
+[
+    {
+        "amount": 1000,
+        "category": "工资",
+        "description": "月薪",
+        "date": "2025-12-26 14:59:19",
+        "type": "Income"
+    },
+    {
+        "amount": 700.0,
+        "category": "服装",
+        "description": "转给公主",
+        "date": "2025-12-26 15:01:24",
+        "type": "Expense"
+    },
+    {
+        "amount": 77777.0,
+        "category": "工资",
+        "description": "副业",
+        "date": "2025-12-26 15:05:17",
+        "type": "Income"
+    }
+]

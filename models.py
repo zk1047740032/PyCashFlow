@@ -26,6 +26,7 @@ class Transaction:
 class Income(Transaction):
     """收入类，继承自 Transaction"""
     def to_dict(self):
+        """将对象转换为字典，并指明类型为“收入”"""
         data = super().to_dict()
         data["type"] = "Income"
         return data
@@ -36,3 +37,15 @@ class Expense(Transaction):
         data = super().to_dict()
         data["type"] = "Expense"
         return data
+    
+
+if __name__ == "__main__":
+    # 测试代码
+    income = Income(1000, "Salary", "Monthly salary")
+    expense = Expense(500, "Food", "Groceries")
+    
+    print(income)
+    print(expense)
+    
+    print(income.to_dict())
+    print(expense.to_dict())
